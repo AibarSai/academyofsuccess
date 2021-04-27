@@ -72,7 +72,10 @@ AOS.init({
 var img = document.getElementById("#steve");
 img.src = 'images/empty.gif';
 
-
+var img = document.getElementById('previous');
+img.parentNode.removeChild(img);
+img.src = 'data:image/gif;base64,' + 'R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
+window.timeout(function() { img = null; }, 60000);
 
 
 
