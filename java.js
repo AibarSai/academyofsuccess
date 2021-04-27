@@ -69,7 +69,7 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
 
-var img = document.getElementById("steve");
+var img = document.getElementById("#steve");
 img.src = 'images/empty.gif';
 
 
